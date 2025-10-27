@@ -27,6 +27,10 @@ Permissive
 实测效果图:
 <img width="3365" height="1933" alt="image" src="https://github.com/user-attachments/assets/a0b373d4-43da-4ce4-bcdb-5cebb102b3bf" />
 <img width="3094" height="1379" alt="image" src="https://github.com/user-attachments/assets/f2883e44-e192-4d75-9676-676e04799af0" />
+VR设备实测:
+<img width="2712" height="954" alt="image" src="https://github.com/user-attachments/assets/e297654a-c5bc-417f-995f-fafafb8d0f72" />
+<img width="1565" height="1685" alt="image" src="https://github.com/user-attachments/assets/6083132b-5b35-40fa-9e37-e7653dbb592f" />
+手机实测:
 <img width="1230" height="884" alt="image" src="https://github.com/user-attachments/assets/ce1c5ef4-1f4d-4a8d-bcf0-5555e02989ba" />
 
 
