@@ -21,7 +21,8 @@ android:debuggable="true"
 测试使用adb shell getenforce命令查询显示
 Permissive
 才可以使用agg或gg修改器
-手机显示为Enforceing必须使用app的ceserver启动```
+手机显示为Enforceing必须使用app的ceserver启动
+```
 
 实测效果图:
 <img width="3365" height="1933" alt="image" src="https://github.com/user-attachments/assets/a0b373d4-43da-4ce4-bcdb-5cebb102b3bf" />
