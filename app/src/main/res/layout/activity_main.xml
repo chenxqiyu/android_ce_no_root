@@ -31,7 +31,13 @@
         android:text="启动CEServer:52736"
         android:onClick="goarm64"
         android:layout_marginTop="8dp"/>
-
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动FridaServer:27042"
+        android:onClick="gofarm64"
+        android:layout_marginTop="8dp"/>
     <EditText
         android:id="@+id/editTextTextMultiLine"
         android:layout_width="376dp"

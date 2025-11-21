@@ -48,7 +48,17 @@ class MainActivity : AppCompatActivity() {
     fun goarm64(view: View) {
 
 
-        startCeserver("ceserverarm64")
+        startCeserver("ceserver")
+        if (view is Button) {
+            val btn = view
+            btn.text = btn.text.toString().replace("启动", "运行中")
+        }
+    }
+
+    fun gofarm64(view: View) {
+
+
+        startCeserver("fridaserver")
         if (view is Button) {
             val btn = view
             btn.text = btn.text.toString().replace("启动", "运行中")
@@ -72,9 +82,10 @@ class MainActivity : AppCompatActivity() {
 //            val cmd = arrayOf("sh", "-c", "./$assetName")
             var cmd = arrayOf("sh", "./$assetName")
 
-            var path = this@MainActivity.getApplicationInfo().nativeLibraryDir + "/libceserver.so";
+            var path =
+                this@MainActivity.getApplicationInfo().nativeLibraryDir + "/lib" + assetName + ".so";
             withContext(Dispatchers.Main) {
-                textView.append("\nceserver运行中。。。。。\n$path")
+                textView.append("\n" + assetName + "运行中。。。。。\n$path")
                 // 滚动到底部
 //                    textView.post {
 //                        textView.scrollTo(0, textView.layout.getLineTop(textView.lineCount) - textView.height)
@@ -111,7 +122,7 @@ class MainActivity : AppCompatActivity() {
 
                 // 回到主线程更新 UI
                 withContext(Dispatchers.Main) {
-                    textView.append("\nceserver运行中。。。。。\nstarted $proc")
+                    textView.append("\n" + assetName + "运行中。。。。。\nstarted $proc")
                     // 滚动到底部
 //                    textView.post {
 //                        textView.scrollTo(0, textView.layout.getLineTop(textView.lineCount) - textView.height)
@@ -123,7 +134,7 @@ class MainActivity : AppCompatActivity() {
                 withContext(Dispatchers.IO) {
                     proc.inputStream.bufferedReader().useLines { lines ->
                         lines.forEach { line ->
-                            Log.i(TAG, "ceserver: $line")
+                            Log.i(TAG, assetName + ": $line")
 //                            textView.append("\nceserver: $line")
 //                            // 滚动到底部
 //                            textView.post {
@@ -135,11 +146,11 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 val exitCode = proc.waitFor()
-                Log.i(TAG, "ceserver exitCode=$exitCode")
+                Log.i(TAG, assetName + " exitCode=$exitCode")
                 // 回到主线程更新 UI
                 withContext(Dispatchers.Main) {
 //                    textView.text = textView.text.toString() + ("\nceserver启动失败")
-                    textView.append("\nceserver启动失败")
+                    textView.append("\n" + assetName + "启动失败")
                     // 滚动到底部
 //                    textView.post {
 //                        textView.scrollTo(0, textView.layout.getLineTop(textView.lineCount) - textView.height)
