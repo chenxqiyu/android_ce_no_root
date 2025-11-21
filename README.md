@@ -37,4 +37,23 @@ VR设备实测:
 手机实测:
 <img width="1230" height="884" alt="image" src="https://github.com/user-attachments/assets/ce1c5ef4-1f4d-4a8d-bcf0-5555e02989ba" />
 
+```
+3.0版本支持fridaserver17.3.2
+```
+```
+需要使用usb数据线连接电脑
+1.启动frida-server
+2.端口转发
+adb forward tcp:27042 tcp:27042
+adb forward tcp:52736 tcp:52736
+3.查询目标包的pid
+adb shell pidof com.example.mytestapp
+4.电脑连接
+F:\Anaconda3\envs\frida\Scripts\frida.exe -U -p 31447 -l F:\core\frida\x86\chrometest1.js
+```
+<img width="896" height="89" alt="image" src="https://github.com/user-attachments/assets/178b73d6-5240-4035-aee7-e0a142274428" />
+<img width="470" height="114" alt="image" src="https://github.com/user-attachments/assets/7632177b-97b2-4a3c-9678-02ec2377bc3b" />
+<img width="1610" height="605" alt="image" src="https://github.com/user-attachments/assets/e8c4eb37-150c-481e-8393-0db875fc8bd2" />
+<img width="782" height="1648" alt="image" src="https://github.com/user-attachments/assets/3267fc39-5483-4c4a-b792-61edf89cd22e" />
+
 
