@@ -1,4 +1,8 @@
- ```免root修改原理共享uid
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0329/060357_d50dc364_899222.jpeg "QQ截图20200329060210.jpg")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0329/060408_475d69a4_899222.jpeg "QQ截图20200329060118.jpg")
+ 支持一下 :smile: 
+
+```免root修改原理共享uid
 
 1.mt管理器反编译要调式的apk，修改xml添加一下信息，重新打包签名安装即可。
 2.自己写一个ceserver的启动app或使用agg、gg等修改器都可以
