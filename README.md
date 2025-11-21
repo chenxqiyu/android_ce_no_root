@@ -56,5 +56,7 @@ F:\Anaconda3\envs\frida\Scripts\frida.exe -U -p 31447 -l F:\core\frida\x86\chrom
 <img width="1610" height="605" alt="image" src="https://github.com/user-attachments/assets/e8c4eb37-150c-481e-8393-0db875fc8bd2" />
 <img width="2481" height="773" alt="image" src="https://github.com/user-attachments/assets/f1db1052-d4a9-4d38-a79d-28cf1f40e869" />
 <img width="782" height="1648" alt="image" src="https://github.com/user-attachments/assets/3267fc39-5483-4c4a-b792-61edf89cd22e" />
+<img width="1750" height="1613" alt="image" src="https://github.com/user-attachments/assets/f4f4ddf9-3452-467f-988f-d0f2339a3edc" />
+
 
 
