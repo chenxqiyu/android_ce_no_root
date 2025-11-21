@@ -134,6 +134,7 @@ class MainActivity : AppCompatActivity() {
                 withContext(Dispatchers.IO) {
                     proc.inputStream.bufferedReader().useLines { lines ->
                         lines.forEach { line ->
+
                             Log.i(TAG, assetName + ": $line")
 //                            textView.append("\nceserver: $line")
 //                            // 滚动到底部
