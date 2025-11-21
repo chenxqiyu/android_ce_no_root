@@ -46,7 +46,7 @@ VR设备实测:
 2.端口转发
 adb forward tcp:27042 tcp:27042
 adb forward tcp:52736 tcp:52736
-3.查询目标包的pid
+3.查询目标包的pid或者使用top查询
 adb shell pidof com.example.mytestapp
 4.电脑连接
 F:\Anaconda3\envs\frida\Scripts\frida.exe -U -p 31447 -l F:\core\frida\x86\chrometest1.js
@@ -54,6 +54,7 @@ F:\Anaconda3\envs\frida\Scripts\frida.exe -U -p 31447 -l F:\core\frida\x86\chrom
 <img width="896" height="89" alt="image" src="https://github.com/user-attachments/assets/178b73d6-5240-4035-aee7-e0a142274428" />
 <img width="470" height="114" alt="image" src="https://github.com/user-attachments/assets/7632177b-97b2-4a3c-9678-02ec2377bc3b" />
 <img width="1610" height="605" alt="image" src="https://github.com/user-attachments/assets/e8c4eb37-150c-481e-8393-0db875fc8bd2" />
+<img width="2481" height="773" alt="image" src="https://github.com/user-attachments/assets/f1db1052-d4a9-4d38-a79d-28cf1f40e869" />
 <img width="782" height="1648" alt="image" src="https://github.com/user-attachments/assets/3267fc39-5483-4c4a-b792-61edf89cd22e" />
 
 
