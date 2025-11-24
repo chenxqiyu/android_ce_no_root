@@ -28,6 +28,10 @@ Permissive
 手机显示为Enforceing必须使用app的ceserver启动
 ```
 
+```
+root版本
+https://github.com/chenxqiyu/android_ce_frida_root
+```
 实测效果图:
 <img width="3365" height="1933" alt="image" src="https://github.com/user-attachments/assets/a0b373d4-43da-4ce4-bcdb-5cebb102b3bf" />
 <img width="3094" height="1379" alt="image" src="https://github.com/user-attachments/assets/f2883e44-e192-4d75-9676-676e04799af0" />
