@@ -9,7 +9,8 @@ th vistor!
  支持一下 :smile: 
 
 ```免root修改原理共享uid
-
+ce7.5版本
+frida-17.3.2版本
 1.mt管理器反编译要调式的apk，修改xml添加一下信息，重新打包签名安装即可。
 2.自己写一个ceserver的启动app或使用agg、gg等修改器都可以
 3.具体实现
