@@ -1,7 +1,9 @@
+
+
 <p align="center">
 Welcome, the
 <a href="https://github.com/chenxqiyu" target="_blank"><img src="https://count.getloli.com/get/@android_ce_no_root?theme=rule34" alt="Visitor Counter"></a>
-th vistor!
+th visitor!
 </p>
 
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0329/060357_d50dc364_899222.jpeg "QQ截图20200329060210.jpg")
@@ -68,6 +70,3 @@ F:\Anaconda3\envs\frida\Scripts\frida.exe -U -p 31447 -l F:\core\frida\x86\chrom
 <img width="2481" height="773" alt="image" src="https://github.com/user-attachments/assets/f1db1052-d4a9-4d38-a79d-28cf1f40e869" />
 <img width="782" height="1648" alt="image" src="https://github.com/user-attachments/assets/3267fc39-5483-4c4a-b792-61edf89cd22e" />
 <img width="1750" height="1613" alt="image" src="https://github.com/user-attachments/assets/f4f4ddf9-3452-467f-988f-d0f2339a3edc" />
-
-
-
